@@ -1,0 +1,325 @@
+﻿{
+    "default": {
+
+        "firstScene": "pond1",
+        "sceneFadeDuration": 2000
+    },
+
+    "scenes": {
+
+        "pond1": {
+            "title": "Les abords Stereolux",
+            "panorama": "PHOTO_abords.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 185,
+                    "type": "scene",
+                    "text": "Billetterie",
+                    "sceneId": "pond2"
+                }
+            ]
+        },
+
+        "pond2": {
+            "title": "Billetterie",
+            "panorama": "PHOTO_billeterie.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -4,
+                    "yaw": 178,
+                    "type": "scene",
+                    "text": "Entrée",
+                    "sceneId": "pond3"
+                }
+            ]
+        },
+
+        "pond3": {
+            "title": "Entrée - Fouille",
+            "panorama": "PHOTO_entree.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 181,
+                    "type": "scene",
+                    "text": "Vestiaire",
+                    "sceneId": "pond4"
+                },
+            {
+                    "pitch": -5,
+                    "yaw": 0,
+                    "type": "scene",
+                    "text": "Sortie",
+                    "sceneId": "pond2"
+                }
+            ]
+        },
+
+         "pond4": {
+            "title": "Vestiaire",
+            "panorama": "PHOTO_vestiare.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 62,
+                    "type": "scene",
+                    "text": "Hall",
+                    "sceneId": "pond5"
+                }
+            ]
+        },
+
+         "pond5": {
+            "title": "Hall",
+            "panorama": "PHOTO_hall.jpg",
+            "pitch": 0,
+            "yaw": 0,
+
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 275,
+                    "type": "scene",
+                    "text": "Bar",
+                    "sceneId": "pond6"
+                },
+
+                {
+                    "pitch": -5,
+                    "yaw": 3,
+                    "type": "scene",
+                    "text": "Salle Maxi",
+                    "sceneId": "pond11"
+                },
+                {
+                    "pitch": -7,
+                    "yaw": 148,
+                    "type": "scene",
+                    "text": "Sortie Stéréolux",
+                    "sceneId": "pond3"
+                }
+            ]
+        },
+
+         "pond6": {
+            "title": "Bar",
+            "panorama": "PHOTO_bar.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 185,
+                     "type": "scene",
+                    "text": "Toilettes",
+                    "sceneId": "pond7"
+                },
+
+                {
+                    "pitch": 0,
+                    "yaw": 350,
+                    "type": "scene",
+                    "text": "Hall",
+                    "sceneId": "pond5"
+                }
+            ]
+        },
+
+        "pond7": {
+            "title": " Toilettes",
+            "panorama": "PHOTO_toilettes.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 350,
+                    "type": "scene",
+                    "text": "Bar",
+                    "sceneId": "pond6"
+
+                },
+
+                {
+                    "pitch": -3,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Salle Micro",
+                    "sceneId": "pond8"
+                }
+            ]
+                },
+
+         "pond8": {
+            "title": " Salle Micro",
+            "panorama": "SAlle micro entrer.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 270,
+                    "type": "scene",
+                    "text": "Bar",
+                    "sceneId": "pond6"
+                },
+
+                 {
+                    "pitch": -5,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Salle Micro - fosse",
+                    "sceneId": "pond13"
+                }
+            ]
+        },
+        "pond9": {
+            "title": "Sortie par ascenseur",
+            "panorama": "PHOTO_entree ascenseur.jpg",
+            "pitch": 0,
+            "yaw": 0,
+
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": 7,
+                    "type": "scene",
+                    "text": "Sortie",
+                    "sceneId": "pond5"
+                }
+
+            ]
+        },
+         "pond10": {
+            "title": "Balcon",
+            "panorama": "PHOTO_maxi siege.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -9,
+                    "yaw": 117,
+                    "type": "scene",
+                    "text": "Sortie par ascenseur",
+                    "sceneId": "pond9"
+                }
+            ]
+        },
+
+         "pond11": {
+            "title": "Salle Maxi",
+            "panorama": "PHOTO_entree maxi.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -8,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Salle Maxi-fosse",
+                    "sceneId": "pond16"
+            }
+
+            ]
+
+             },
+
+        "pond12": {
+            "title": "Scène",
+            "panorama": "PHOTO_scene maxi.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -20,
+                    "yaw": 178,
+                    "type": "scene",
+                    "text": "Salle Maxi-fosse",
+                    "sceneId": "pond16"
+            }
+
+            ]
+
+             },
+
+        "pond13": {
+            "title": "Salle Micro-Fosse",
+            "author": "©David Gallard",
+            "panorama": "Stereolux_Micro fosse.JPG",
+              "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": -9,
+                    "yaw": 325,
+                    "type": "scene",
+                    "text": "Sortie",
+                    "sceneId": "pond8"
+                }
+            ]
+        },
+
+
+        "pond15": {
+            "title": "Accès Balcon",
+            "panorama": "PHOTO_escalier.jpg",
+            "pitch": 0,
+            "yaw": 30,
+
+            "hotSpots": [
+                {
+                    "pitch": -8,
+                    "yaw": 55,
+                    "type": "scene",
+                    "text": "Balcon",
+                    "sceneId": "pond10"
+                }
+            ]
+        },
+
+        "pond16": {
+            "title": "Salle Maxi-fosse",
+            "panorama": "PHOTO_maxi fosse.jpg",
+            "pitch": 0,
+            "yaw": -180,
+
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "Scène",
+                    "sceneId": "pond12"
+                },
+                {
+                    "pitch": -3,
+                    "yaw": 247,
+                    "type": "scene",
+                    "text": "Accès balcon",
+                    "sceneId": "pond15"
+                }
+            ]
+        }
+
+    }
+}
